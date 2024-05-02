@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="mech1.png" alt="21700 BLUE">
+        </div>
+        <h1>21700 BLUE</h1>
+        <p>Dive into the world of advanced vaping with our 21700 Blue Mech Mods. Crafted for enthusiasts seeking unparalleled power and performance, these mods combine cutting-edge technology with timeless design. The vibrant blue finish adds a pop of color to your setup, while the 21700 battery ensures long-lasting vaping sessions. Whether you're a cloud chaser or flavor aficionado, our advanced mech mods deliver a satisfying experience with every puff. Elevate your vaping game with the 21700 Blue Mech Mods, where innovation meets style for the ultimate vaping experience.
+        </p>
+        <p>Price: ₱1,500.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

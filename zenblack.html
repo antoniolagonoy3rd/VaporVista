@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="pen1.png" alt="ZEN BLACK">
+        </div>
+        <h1>ZEN BLACK</h1>
+        <p>Elevate your vaping experience with the ZEN Black pen. Sleek, stylish, and sophisticated, this pen-style vape device is designed for those who appreciate both form and function. Crafted with precision and attention to detail, the ZEN Black pen delivers smooth and satisfying vapor with every puff. Whether you're a novice or a seasoned vaper, its user-friendly design makes it easy to enjoy your favorite e-liquids on the go. Discover the perfect balance of elegance and performance with the ZEN Black pen.
+        </p>
+        <p>Price: ₱850.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

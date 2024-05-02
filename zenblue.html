@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="pen4.png" alt="ZEN BLUE">
+        </div>
+        <h1>ZEN BLUE</h1>
+        <p>Dive into a realm of calmness and clarity with the ZEN Blue pen. Inspired by the tranquility of azure skies and serene waters, this pen-style vape device embodies a sense of peace and serenity. The soothing blue hue evokes a feeling of relaxation and harmony, making it the perfect companion for moments of introspection and mindfulness. Crafted with precision and elegance, the ZEN Blue pen delivers a smooth and satisfying vaping experience with every puff. Whether you're taking a break from the chaos of the day or simply savoring the present moment, the ZEN Blue pen is your gateway to tranquility and enjoyment.
+
+        </p>
+        <p>Price: ₱850.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="mod2.png" alt="VOOPOO BLUE GREEN">
+        </div>
+        <h1>VOOPOO BLUE GREEN</h1>
+        <p>Dive into a world of vibrant energy and tranquility with Voopoo Blue Green mods. Combining the calming essence of blue with the revitalizing energy of green, these mods are a celebration of harmony and balance. With their eye-catching blend of colors, they stand out as a symbol of individuality and style. Engineered for performance and reliability, Voopoo Blue Green mods offer a seamless vaping experience, whether you're chasing clouds or savoring flavors. With advanced features and intuitive controls, they empower you to customize your vape to perfection. Elevate your vaping journey with Voopoo Blue Green mods, where serenity meets power.
+
+        </p>
+        <p>Price: ₱1,000.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

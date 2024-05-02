@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="pen3.png" alt="ZEN RED">
+        </div>
+        <h1>ZEN RED</h1>
+        <p>Inject passion and energy into your vaping routine with the ZEN Red pen. Vibrant and bold, this pen-style vape device is designed to make a statement wherever you go. The striking red color exudes confidence and flair, reflecting your bold personality and unwavering style. Crafted for both aesthetics and performance, the ZEN Red pen delivers smooth and flavorful vapor with each draw. Whether you're starting your day with a burst of inspiration or winding down with moments of relaxation, the ZEN Red pen ensures every vaping experience is a memorable one. Ignite your senses and embrace the power of red with ZEN.
+        </p>
+        <p>Price: ₱850.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

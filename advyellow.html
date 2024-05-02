@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="mech4.png" alt="21700 YELLOW">
+        </div>
+        <h1>21700 YELLOW</h1>
+        <p>Unleash your vibrant spirit with our 21700 Yellow Mech Mods. Engineered for the discerning vaper, these advanced mods seamlessly fuse cutting-edge technology with captivating design. The luminous yellow finish radiates energy and personality, ensuring you stand out wherever you vape. Powered by a 21700 battery, these mods offer enduring performance and extended vaping sessions. Whether you're chasing billowing clouds or savoring intricate flavors, our 21700 Yellow Mech Mods deliver an electrifying experience with every puff. Ignite your passion for vaping with the 21700 Yellow Mech Mods, where innovation meets personality for an exhilarating vaping journey.
+        </p>
+        <p>Price: ₱1,500.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

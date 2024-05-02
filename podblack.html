@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="logo.png" class="logo" alt="Vapor Vista">
+    </a>
+    <div class="container">
+        <div class="product-image">
+            <img src="pod1.png" alt="CALIBURN BLACK">
+        </div>
+        <h1>CALIBURN BLACK</h1>
+        <p>Discover simplicity and reliability with our Caliburn Black pods. Designed for the discerning vaper, these sleek pods offer a perfect balance of style and performance. With their elegant black design, they exude sophistication and versatility, fitting seamlessly into any vaping setup. Engineered for convenience, Caliburn Black pods provide hassle-free refills and consistent vapor production, ensuring a satisfying experience with every puff. Whether you're a beginner or an experienced vaper, Caliburn Black pods are your ideal companion for all-day vaping enjoyment. Elevate your vaping game with Caliburn Black pods, where simplicity meets satisfaction.
+        </p>
+        <p>Price: ₱500.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Item added to cart!✅</h2>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

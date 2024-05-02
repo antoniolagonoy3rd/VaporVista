@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vapor Vista</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="age-verification">
+            <p>WARNING: This product contains nicotine. Nicotine is an addictive chemical. Only for adults, MINORS are prohibited from buying e-cigarette.</p>
+            <p>To enter this site, you must be 18 years or older.</p>
+            <input type="number" id="age-input" placeholder="Enter your age" onkeydown="if (event.keyCode === 13) { verifyAge(); }">
+            <button id="age-verify-btn" onclick="verifyAge()">Verify Age</button>
+          </div>
+        <div class="banner">
+            <div class="navbar">
+                <a href="index.html">
+                    <img src="logo.png" class="logo" alt="Vapor Vista">
+                </a>
+                <ul>
+                    <li><a href="cigalikes.html">CIGALIKES</a></li>
+                    <li><a href="pen.html">PENS</a></li>
+                    <li><a href="mods.html">MODS</a></li>
+                    <li><a href="advmods.html">ADVANCED/MECH MODS</a></li>
+                    <li><a href="pods.html">PODS</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h1>V A P O R &nbsp; V I S T A :<br>A &nbsp;C L O U D &nbsp; J O U R N E Y<h1>
+            </div>
+
+            <div class="warning">
+                <p>WARNING:&nbsp;&nbsp;This product contains nicotine. Nicotine is an addictive chemical.</p>
+                <p>Only for adults. Anyone below the age of 18 is prohibited from buying e-cigarettes.</p>
+            </div>
+            <div class="about">
+                <h2>ABOUT US</h2>
+                <p>We are Vapor Vista, dedicated to providing the best vaping experience for our customers.
+                    Our mission is to offer high-quality vaping products and accessories while promoting responsible vaping practices.</p>
+                    <h2>CONTACT US</h2>
+
+                    <div class="social-media-container">
+                    <a href="https://www.facebook.com/antonio.lagonoy.9" target="_blank">
+                        <img src="Facebook_Logo_(2019).png.webp" alt="Facebook logo" class="social-media-logo">
+                    </a>
+                    <a href="https://www.instagram.com/yymahc?fbclid=IwAR1qbLwbZrTgKpv9gXKHAf6T_Bq3TvJmYBjbohzsezkgcBf8wcNq1srNcL4" target="_blank">
+                        <img src="instaa.png" alt="Instagram logo" class="social-media-logo">
+                    </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNrdNlDbxjFQpmZQLLpwGmqtzTddRzGpKwQxCTXdjpJZPLGHvXCScSTjvdgvLGWjHszqrL" target="_blank">
+                            <img src="gmaill.png" alt="Gmail logo" class="social-media-logo">
+                        </a>
+                        <a href="https://www.tiktok.com/@chamthirddd" target="_blank">
+                            <img src="tiktok.png" alt="Gmail logo" class="social-media-logo">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCDptdXuU_JG_4LWxmpxu6fg" target="_blank">
+                            <img src="youtube.png" alt="Gmail logo" class="social-media-logo">
+                        </a>
+                        
+                        <p>COPYRIGHT © 2024 VAPOR VISTA ALL RIGHTS RESERVED.</p>
+                        <h2>____</h2>
+                    </div>
+            </div>
+        </div>
+        <script>
+            function verifyAge() {
+              const ageInput = document.getElementById("age-input");
+              const age = parseInt(ageInput.value);
+          
+              if (age >= 18) {
+                // If the user is 18 or older, show the banner and hide the age verification prompt
+                document.querySelector(".banner").style.display = "block";
+                document.querySelector(".age-verification").style.display = "none";
+              } else {
+                // If the user is under 18, show an error message
+                alert("You must be 18 years or older to enter this site.");
+              }
+            }
+          </script>
+    </body> 
+</html>
